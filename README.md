@@ -1,2 +1,2 @@
-# clase-2
+# ejerciciosProgram1
 Pueba git : )
