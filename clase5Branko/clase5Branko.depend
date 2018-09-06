@@ -1,0 +1,13 @@
+# depslib dependency file v1.0
+1536194152 source:/home/alumno/Escritorio/apunteclase5/clase5Branko/utn.c
+	<stdio.h>
+	<stdlib.h>
+	<time.h>
+
+1536194130 source:/home/alumno/Escritorio/apunteclase5/clase5Branko/main.c
+	<stdio.h>
+	<stdlib.h>
+	"utn.h"
+
+1536187084 /home/alumno/Escritorio/apunteclase5/clase5Branko/utn.h
+
