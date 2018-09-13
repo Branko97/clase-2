@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Clase4</title>
+</head>
+<body>
+    <h1 style="background-color:blue">clase4</h1>
+    <script>
+        //esto es un objeto
+        var mascota= {};
+        mascota.nombre= "pepito";
+        mascota.tipo = "perro";
+        console.log(mascota);
+
+        //otra forma
+        var persona={
+            nombre:"Juan",
+            apellido: "Perez",
+            edad: 30
+        }
+        console.log(persona);
+
+        var alumno= new Object();
+        alumno.nombre="Julio"
+        alumno.edad = 30
+        console.log(alumno)
+        //nesesito un constructor-_
+
+        function Heroe(nombre,apellido,alias,edad){
+            this.nombre=nombre;
+            this.apellido= apellido;
+            this.alias=alias;
+            this.edad=edad;
+            this.saludar = function()
+            {
+                alert("hola soy" + this.alias);
+            }
+            
+
+        }
+        //ahora puedo construir directamente los objetos
+        var Superman= new Heroe("Clark","Kent","Superman",34);
+        var Flash= new Heroe("Harry","Alen","Flash",21);
+        console.log(Superman);
+        //propiedades
+
+        /*
+        alert(Superman.nombre);
+        //tambien puedo recorrerlo como vector
+        alert(Superman["apellido"]);
+        //tambien en otra variable
+        var propiedad= "edad";
+        alert(Superman[propiedad]);
+        */
+        /*
+        delete Superman.edad;
+
+
+        for (var propiedad in Superman)
+        {
+            alert Superman[propiedad];
+        }
+    */  
+
+        Superman.poder = "vuela";
+
+        Flash.poder = "";
+
+        //todos tendran un poder ahora
+        Heroe.prototype.poder = "";
+
+    for (var propiedad in Superman)
+    {
+        alert(Superman[propiedad]);
+    }
+
+    for (var propiedad in Flash)
+    {
+        alert(Flash[propiedad]);
+    }
+
+
+    //Superman.saludar();
+
+
+
+
+    </script>
+
+    
+</body>
+</html>
