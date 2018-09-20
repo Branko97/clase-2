@@ -1,0 +1,16 @@
+# depslib dependency file v1.0
+1537483024 source:/home/alumno/Escritorio/clasehoy/BibliotecaUTN/main.c
+	<stdio_ext.h>
+	<stdlib.h>
+	<string.h>
+	"utn.h"
+
+1537483039 /home/alumno/Escritorio/clasehoy/BibliotecaUTN/utn.h
+
+1537483024 source:/home/alumno/Escritorio/clasehoy/BibliotecaUTN/utn.c
+	"utn.h"
+	<stdio_ext.h>
+	<stdlib.h>
+	<string.h>
+	<time.h>
+
