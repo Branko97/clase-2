@@ -1,0 +1,24 @@
+# depslib dependency file v1.0
+1537392581 source:/home/alumno/Escritorio/clase-2/utn/utn.c
+	"utn.h"
+	<stdio_ext.h>
+	<stdlib.h>
+	<string.h>
+	<time.h>
+
+1537392580 /home/alumno/Escritorio/clase-2/utn/utn.h
+
+1537485306 source:/home/alumno/Escritorio/Practica clase 9/main.c
+	<stdio.h>
+	<stdlib.h>
+	"utn.h"
+
+1537392581 source:/home/alumno/Escritorio/Practica clase 9/utn.c
+	"utn.h"
+	<stdio_ext.h>
+	<stdlib.h>
+	<string.h>
+	<time.h>
+
+1537392580 /home/alumno/Escritorio/Practica clase 9/utn.h
+
