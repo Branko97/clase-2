@@ -1,0 +1,29 @@
+# depslib dependency file v1.0
+1538696931 source:/home/alumno/Escritorio/Parcial1_Arandjelovic/main.c
+	"utn.h"
+	<stdio_ext.h>
+	<stdlib.h>
+	<string.h>
+	<time.h>
+	"afiches.h"
+
+1538694896 source:/home/alumno/Escritorio/Parcial1_Arandjelovic/utn.c
+	"utn.h"
+	<stdio_ext.h>
+	<stdlib.h>
+	<string.h>
+	<time.h>
+	"afiches.h"
+
+1538694896 /home/alumno/Escritorio/Parcial1_Arandjelovic/utn.h
+
+1538698016 source:/home/alumno/Escritorio/Parcial1_Arandjelovic/afiches.c
+	<stdio.h>
+	<stdlib.h>
+	<time.h>
+	<string.h>
+	"utn.h"
+	"afiches.h"
+
+1538698201 /home/alumno/Escritorio/Parcial1_Arandjelovic/afiches.h
+
