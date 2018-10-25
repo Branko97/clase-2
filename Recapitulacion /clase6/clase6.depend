@@ -1,0 +1,14 @@
+# depslib dependency file v1.0
+1540423965 source:/home/alumno/Escritorio/Recapitulacion /clase6/main.c
+	<stdio.h>
+	<stdlib.h>
+
+1540424204 source:/home/alumno/Escritorio/Recapitulacion /clase6/utn.c
+	"utn.h"
+	<stdio_ext.h>
+	<stdlib.h>
+	<string.h>
+	<time.h>
+
+1540424190 /home/alumno/Escritorio/Recapitulacion /clase6/utn.h
+

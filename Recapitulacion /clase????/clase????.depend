@@ -1,0 +1,14 @@
+# depslib dependency file v1.0
+1540422309 source:/home/alumno/Escritorio/Bravo/Parcial1ProgramacionI/clase????/utn.c
+	"utn.h"
+	<stdio_ext.h>
+	<stdlib.h>
+	<string.h>
+
+1540421983 /home/alumno/Escritorio/Bravo/Parcial1ProgramacionI/clase????/utn.h
+
+1540422309 source:/home/alumno/Escritorio/Bravo/Parcial1ProgramacionI/clase????/main.c
+	<stdio.h>
+	<stdlib.h>
+	"utn.h"
+
